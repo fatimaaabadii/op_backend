@@ -24,8 +24,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Data
 @Entity
 public class OperationRamadan {

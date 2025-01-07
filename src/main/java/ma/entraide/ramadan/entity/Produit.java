@@ -20,8 +20,7 @@ import ma.entraide.ramadan.entity.*;
 import java.util.*;
 
 
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Data
 @Entity
 public class Produit {

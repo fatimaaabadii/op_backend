@@ -21,8 +21,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.util.*;
 
 
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Data
 @Entity
 public class Delegation {

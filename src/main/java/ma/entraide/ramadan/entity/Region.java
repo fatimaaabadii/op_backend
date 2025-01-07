@@ -31,8 +31,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.util.*;
 
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Data
 @Entity
 public class Region {

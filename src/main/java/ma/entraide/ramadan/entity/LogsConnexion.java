@@ -10,8 +10,6 @@ import java.util.Date;
 
 @Entity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class LogsConnexion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

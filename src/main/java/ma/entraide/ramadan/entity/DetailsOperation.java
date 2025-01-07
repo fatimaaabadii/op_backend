@@ -23,8 +23,6 @@ import java.util.*;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Data
 @Entity
 public class DetailsOperation {
