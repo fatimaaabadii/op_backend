@@ -60,6 +60,15 @@ public class OperationRamadanController {
     }
     
     
+    @GetMapping("/totalproduits")
+    public List<ProductStats> getTotalEtPourcentagePourTousLesProduits() {
+        return operationRamadanService.calculerTotalEtPourcentagePourTousLesProduits();
+    }
+    
+    
+    
+    
+    
     @GetMapping("/pourcentages-par-delegation")
     @PreAuthorize("hasAuthority('ADMIN_ROLES') OR hasAuthority('USER_ROLES') OR hasAuthority('SIEGE_ROLES') OR hasAuthority('DELEGUE_ROLES') OR hasAuthority('COORDINATEUR_ROLES') OR hasAuthority('TECHNIQUE_ROLES')")
     public ResponseEntity<?> getPourcentagesParDelegation() {
